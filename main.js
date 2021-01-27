@@ -1,7 +1,7 @@
-const root = document.querySelector('#root');
+const root = document.querySelector('#cards');
 
 const query = `query {
-    pokemons(first: 150) {
+    pokemons(first: 151) {
       id
       name
       image
@@ -21,23 +21,28 @@ const apiRequest = fetch('https://graphql-pokemon2.vercel.app/', {
 apiRequest
     .then(r => r.json())
     .then( ({ data: { pokemons } }) => {
-        pokemons.forEach( pokemon => {
+      console.table(pokemons);
+      pokemons.forEach( pokemon => {
 
-            const card = document.createElement('div');
-            card.classList.add('card');
+          const card = document.createElement('div');
+          card.classList.add('card');
 
-            const img = document.createElement('img');
-            img.classList.add('img');
-            img.src = pokemon.image;
+          const img = document.createElement('img');
+          img.classList.add('img');
+          img.src = pokemon.image;
 
-            const pokemonNameHeader = document.createElement('h2');
-            const pokemonNameText = document.createTextNode(pokemon.name);
-            pokemonNameHeader.appendChild(pokemonNameText);
+          const pokemonNameHeader = document.createElement('h2');
+          const pokemonNameText = document.createTextNode(pokemon.name);
+          pokemonNameHeader.appendChild(pokemonNameText);
 
-            card.appendChild(img);
-            card.appendChild(pokemonNameHeader);
+          const pokemonTypesP = document.createElement('p');
+          const pokemonTypesText = document.createTextNode(pokemon.types.join(' - '));
+          pokemonTypesP.appendChild(pokemonTypesText);
 
-            root.appendChild(card); 
-        });
-        
+          card.appendChild(img);
+          card.appendChild(pokemonNameHeader);
+          card.appendChild(pokemonTypesP);
+          
+          root.appendChild(card);
+      });  
     })
