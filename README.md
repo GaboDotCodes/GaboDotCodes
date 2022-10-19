@@ -3,7 +3,7 @@
 **I'm Gabriel**, a 22 years old Systems Engineer Student. 👨‍💻\
 I love to learn and understand how things work.\
 I will try to help and teach whenever I can.\
-I believe that every idea has the power of shape our world.\
+I believe that every idea has the power of shape our world.
 
 ## These are some of my personal projects
 
@@ -16,6 +16,6 @@ I believe that every idea has the power of shape our world.\
 - [GifApp](https://gabodotcodes.github.io/gif-app/): A web to search gifs. 🎥🐰 It's a ReactJs practice with hooks and horizontal scrolling. [/<code\>](https://github.com/GaboDotCodes/gif-app)
 
 Finally...
-- [GraphQL Webinar](https://drive.google.com/file/d/1ZWk9wayv2URke0So4MHWG1LYWH1QEIHo/view): A GraphQL webinar to share my knowlege and build a feature with my team. I was 20 yo [\<code\>](https://github.com/GaboDotCodes/graphQL_webinar)
+- [GraphQL Webinar](https://drive.google.com/file/d/1ZWk9wayv2URke0So4MHWG1LYWH1QEIHo/view): A GraphQL webinar to share my knowlege and build a feature with my team. I was 20 yo. [\<code\>](https://github.com/GaboDotCodes/graphQL_webinar)
 
 Thanks for checking it out! You can say Hi! in `hi[at]gabo[dot]codes`
