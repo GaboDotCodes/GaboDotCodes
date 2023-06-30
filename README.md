@@ -2,7 +2,7 @@
 
 **I'm Gabriel**, a 22 years old Systems Engineer Student. 👨‍💻\
 I love to learn and understand how things work.\
-I will try to help and teach whenever I can.\
+I will try to help and share my knowledge whenever I can.\
 I believe that every idea has the power of shape our world.
 
 ## These are some of my personal projects
